@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     "@pinia-plugin-persistedstate/nuxt",
     "@element-plus/nuxt",
   ],
+  nitro: {
+    preset: "vercel",
+  },
   piniaPersistedstate: {
     storage: "cookies",
   },
